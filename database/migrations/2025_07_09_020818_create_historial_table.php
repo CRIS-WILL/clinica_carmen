@@ -12,6 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('historial', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
+            $table->id();
             $table->string('id_hist')->unique();
             $table->date('fecha');
             $table->string('alergias')->nullable();
