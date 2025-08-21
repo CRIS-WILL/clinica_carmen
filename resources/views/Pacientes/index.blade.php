@@ -59,10 +59,10 @@
 
     <div class="button-group">
         <a href="{{ route('pacientes.create') }}" class="btn btn-outline-primary px-4 py-2">
-            <i class="fas fa-user-plus"></i> Agregar
+             Agregar
         </a>
         <a href="{{ route('pacientes.showAll') }}" class="btn btn-outline-secondary px-4 py-2">
-            <i class="fas fa-table"></i> Tabla completa
+            </i> Tabla completa
         </a>
         
     </div>

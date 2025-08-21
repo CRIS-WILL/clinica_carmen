@@ -97,7 +97,7 @@
 
             </div>
             <div class="card-footer text-end">
-                <a href="{{ route('pacientes.index') }}" class="btn btn-primary">Lista</a>
+                <a href="{{ route('pacientes.index') }}" class="btn btn-primary">Cancelar</a>
                 <button class="btn btn-success" type="submit">Guardar</button>
             </div>
         </form>
